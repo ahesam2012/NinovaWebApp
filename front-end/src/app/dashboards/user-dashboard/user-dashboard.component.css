@@ -1,0 +1,15 @@
+/* src/app/dashboards/user-dashboard/user-dashboard.component.css */
+
+.user-dashboard {
+    padding: 20px;
+  }
+  
+  .user-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-dashboard li {
+    margin-bottom: 10px;
+  }
+  

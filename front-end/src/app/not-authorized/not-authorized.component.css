@@ -1,0 +1,11 @@
+/* src/app/not-authorized/not-authorized.component.css */
+
+.not-authorized {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .not-authorized button {
+    margin-top: 20px;
+  }
+  

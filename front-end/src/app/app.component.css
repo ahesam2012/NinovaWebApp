@@ -1,0 +1,36 @@
+/* src/app/app.component.css */
+
+.navbar {
+    background-color: #343a40;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .navbar-links a,
+  .navbar-links button {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover,
+  .navbar-links button:hover {
+    text-decoration: underline;
+  }
+  

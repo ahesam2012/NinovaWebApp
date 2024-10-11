@@ -1,0 +1,14 @@
+<!-- src/app/dashboards/user-dashboard/user-dashboard.component.html -->
+
+<div class="user-dashboard">
+    <h2>User Dashboard</h2>
+    <h3>Your Orders:</h3>
+    <ul>
+      <li *ngFor="let order of orders">
+        <strong>Order ID:</strong> {{ order.id }}, 
+        <strong>Status:</strong> {{ order.orderStatus }}, 
+        <strong>Subtotal:</strong> {{ order.orderSubtotal | currency }}
+      </li>
+    </ul>
+  </div>
+  
